@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import sys
+import os
+
+names = [element for element in os.walk('.')][0][2]
+
+x = 0
+for element in names:
+	if element.endswith('.md'):
+		x += 1
+		print str(x)+'. Found: '+element
+		if len(sys.argv)==1:
+			os.system('pandoc '+element+' -o '+element.replace('.md','.pdf'))
+		else:
+			os.system('pandoc '+element+' -o '+sys.argv[1]+'.pdf')
+
+
+print '   == FINISHED =='

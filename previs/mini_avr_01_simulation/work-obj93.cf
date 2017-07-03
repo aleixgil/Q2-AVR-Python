@@ -1,0 +1,7 @@
+v 4
+file . "mini_avr_01_tb.vhd" "18d830e1a34ab8616da12f0d91e9211c5085a679" "20160526064635.418":
+  entity mini_avr_01_tb at 1( 0) + 0 on 13;
+  architecture behav of mini_avr_01_tb at 8( 116) + 0 on 14;
+file . "mini_avr_01.vhd" "b9aece9f8e1698c4b94852f78e16f75d79dff8a2" "20160526064634.783":
+  entity mini_avr_01 at 1( 0) + 0 on 11;
+  architecture behav of mini_avr_01 at 16( 398) + 0 on 12;

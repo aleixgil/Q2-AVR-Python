@@ -1,0 +1,7 @@
+v 4
+file . "sintetitzador.vhd" "0fca2ffa891b327360cad80ce8053089148828f2" "20160511164917.176":
+  entity sintetitzador at 1( 0) + 0 on 19;
+  architecture behav of sintetitzador at 13( 229) + 0 on 20;
+file . "mini_avr_01.vhd" "551a52e8600f6f8c3aca9d78479ea7abaee44584" "20160511111016.963":
+  entity mini_avr_01 at 1( 0) + 0 on 17;
+  architecture behav of mini_avr_01 at 16( 398) + 0 on 18;
